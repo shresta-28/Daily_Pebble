@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="335dp"
+        android:layout_height="360dp"
+        android:layout_gravity="center"
+        android:maxWidth="2dp"
+        android:maxHeight="2dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/benefits_page1_pic" />
+
+    <TextView
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Habits to Grow."
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Build the daily habits that will transform your mental health. Daily Pebble helps you bring meaning to each step you take."
+        android:textAlignment="center" />
+</LinearLayout>
