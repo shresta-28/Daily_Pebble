@@ -46,7 +46,7 @@
     </com.google.android.material.tabs.TabLayout>
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/SignUpPageButton"
         android:layout_width="280dp"
         android:layout_height="wrap_content"
         android:text="Begin Your Journey!"
@@ -55,7 +55,7 @@
         />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/SignInPageButton"
         android:layout_width="match_parent"
         android:layout_height="26dp"
         android:maxHeight="10dp"

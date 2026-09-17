@@ -1,6 +1,8 @@
 package com.dailypebble
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -39,6 +41,18 @@ class MainActivity : AppCompatActivity() {
         val tabLayout: TabLayout = findViewById<TabLayout>(R.id.dot_tab_layout)
         TabLayoutMediator(tabLayout, viewPager) { tab: TabLayout.Tab, position: Int ->
 
-        }.attach();
+        }.attach()
+
+        val signInButton: Button = findViewById<Button>(R.id.SignInPageButton)
+        signInButton.setOnClickListener{
+            val intent = Intent(this, SignIn::class.java)
+            startActivity(intent)
+        }
+
+        val signUpButton: Button = findViewById<Button>(R.id.SignUpPageButton)
+        signUpButton.setOnClickListener{
+            val intent = Intent(this, SignUp::class.java)
+            startActivity(intent)
+        }
     }
 }
